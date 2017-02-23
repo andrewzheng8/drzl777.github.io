@@ -1,0 +1,21 @@
+# Site settings
+title: Andrew Learns About Life
+header-img: img/home-bg.png
+email: andrew.zheng725@gmail.com
+copyright_name: drzl777
+description: > # this means to ignore newlines until "baseurl:"
+  Something new to discover each day
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  drzl777
+learn_profile: drzl777
+email_username: andrew.zheng725@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
